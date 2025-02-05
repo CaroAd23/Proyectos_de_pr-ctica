@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0px;
+
+}
+
+body{
+    background-color: beige ;
+
+}
+
+#container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+#header img{
+    
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 9%;
+    margin-top: 8%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+
+}
+#title{
+    margin-left: 5%;
+    font-family: "Young Serif", sans-serif;
+    font-size: 40px;
+    color: rgb(19, 19, 19);
+}
+#header p{
+    margin: 5%;
+    font-family: "outfit", sans-serif;
+}
+#time_recipe{
+    margin: 5%;
+    background-color: rgb(252, 229, 229);
+    border-radius: 5px;
+}
+#time_recipe h3{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: "Young Serif", sans-serif;
+    color: rgb(174, 55, 55);
+
+
+}
+#time_recipe ul{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+#time_recipe ul li{
+    margin: 1%;
+    font-family: "outfit", sans-serif;
+    margin-bottom: 2%;
+
+
+}
+#ingredients{
+    margin: 5%;
+
+}
+#ingredients h2{
+    font-family: "Young Serif", sans-serif;
+    margin: 2%;
+
+
+}
+#ingredients ul li{
+    font-family: "outfit", sans-serif;
+    margin: 2%;
+    
+}
+#instructions{
+    margin: 5%;
+}
+#instructions ol li{
+    font-family: "outfit", sans-serif;
+    margin: 2%;
+}
+#instructions h2{
+    font-family: "Young Serif", sans-serif;
+    margin: 2%;
+}
+#nutrition{
+    margin: 5%;
+
+}
+#nutrition p{
+    font-family: "outfit", sans-serif;
+    margin: 2%;
+}
+#nutrition h2{
+    font-family: "Young Serif", sans-serif;
+    margin: 2%;
+}
+#nutrition table{
+    margin: 2%;
+}
+#nutrition table{
+    font-family: "outfit", sans-serif;
+  width: 100%;
+  
+
+}
+.th1{
+    padding: 20px;
+    width: 50%;
+    border-bottom: solid black 1px ;
+    color: rgb(96, 94, 94);
+}
+.th2{
+    width: 50%;
+    text-align: left;
+    border-bottom: solid black 1px ;
+    color: rgb(148, 65, 65);
+}
+.th3{
+    padding: 20px;
+    width: 50%;
+    color: rgb(96, 94, 94);
+}
+.th4{
+    width: 50%;
+    text-align: left;
+    color: rgb(148, 65, 65);
+}
+/*Media querys*/
+@media (max-width: 600px) {
+    header img{
+        width: 100vh;
+        margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 0px;
+    }
+    #container{
+        margin: 0%;
+        border-radius: 0%;
+    }
+
+    
+}
